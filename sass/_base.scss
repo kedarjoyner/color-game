@@ -1,7 +1,45 @@
 
 // Colors
 $black: #232323;
+$blue: #3399ff;
 
+// Font Family
+$base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+$base-font-weight: 400;
+$base-line-height: 1.4;
+$base-font-size: 62.5%;
+$base-paragraph-font-size: 1.6rem; /* =16px */
+
+// sets document font size
+html {
+  font-size: $base-font-size;
+}
+
+// paragraph font
 body {
   background-color: $black;
+  font-family: $base-font-family;
+  font-weight: 400;
+  line-height: $base-line-height;
+  font-size: $base-paragraph-font-size;
+}
+
+
+// Headers
+$header-font-weight: 600;
+$header-font-size: 3.4rem; /* =34px */
+
+h1 {
+  font-size: $header-font-size;
+}
+
+
+// buttons
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+   -moz-appearance: none;
 }

@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>RGB Color Game</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
   <link href="css/screen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <h3 id="header">The Great <span id="color-display">RGB</span> Color Game</h3>
+  <h1 id="header">The Great
+    <br />
+    <span id="color-display">RGB</span>
+    <br />
+    Guessing Game</h1>
   <div id="stripe">
     <button id="reset">New Colors</button>
     <span id="message"></span>
+    <button id="easy-btn" type="button" name="button">Easy</button>
+    <button id="hard-btn" class="selected" type="button" name="button">Hard</button>
   </div>
 
   <div class="flex-container">
