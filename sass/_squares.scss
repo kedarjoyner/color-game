@@ -11,7 +11,6 @@
 .squares-container {
   max-width: 600px;
   margin: 3em auto;
-  padding-bottom: 3em;
   .square {
     width: 30%;
     float: left;
@@ -21,5 +20,8 @@
     transition: background 0.5s;
     -webkit-transition: background 0.5s;
     -moz-transition: background 0.5s;
+  }
+  .bottom {
+    margin-bottom: 3em;
   }
 }
