@@ -23,7 +23,7 @@ h1 {
 .squares-container {
   max-width: 600px;
   margin: 3em auto;
-  margin-bottom: 3em;
+  padding-bottom: 3em;
 }
 .squares-container .square {
   width: 30%;
