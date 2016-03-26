@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: #232323;
+  background-color: #333333;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.4;
@@ -28,7 +28,7 @@ h1 {
   align-content: flex-start;
   align-items: flex-start;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 3em auto;
 }
 .flex-container .square {
   width: 300px;
