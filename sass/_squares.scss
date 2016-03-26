@@ -7,15 +7,11 @@
   align-items: flex-start;
   max-width: 550px;
   margin: 0 auto;
-}
-
-
-
-
-.square {
-  width: 150px;
-  height: 125px;
-  background: purple;
-  padding-bottom: 16px 16px;
-  margin: 10px;
+  .square {
+    width: 150px;
+    height: 125px;
+    background: purple;
+    padding-bottom: 16px 16px;
+    margin: 10px;
+  }
 }

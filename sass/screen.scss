@@ -3,18 +3,16 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset/utilities";
-
-// let's us use all utilities/mixins for all css3 properties
-@import "compass/css3";
+@import "compass/reset";
 
 // Base Styles
 
 @import "base";
 
-// Partials
-@import "reset";
 
 // Colored Squares
 
 @import "squares";
+
+// header
+@import "header";
