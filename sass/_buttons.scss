@@ -1,3 +1,27 @@
 .selected {
-  background: blue;
+  color: white;
+  background-color: $blue;
+}
+
+button {
+  padding: 0 2em;
+  font-size: inherit;
+  color: $blue;
+  letter-spacing: 1.2px;
+  font-weight: $header-font-weight;
+  height: 100%;
+  text-transform: uppercase;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+  -webkit-appearance: none;
+   -moz-appearance: none;
+   &:hover {
+     color: white;
+     background-color: $blue;
+   }
 }

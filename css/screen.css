@@ -20,14 +20,6 @@ h1 {
   font-size: 3.4rem;
 }
 
-button {
-  border: none;
-  outline: none;
-  cursor: pointer;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -44,6 +36,9 @@ button {
   background: purple;
   padding-bottom: 16px 16px;
   margin: 10px;
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
 }
 
 body {
@@ -67,7 +62,35 @@ body #stripe {
   height: 4em;
   text-align: center;
 }
+body #message {
+  display: inline-block;
+  width: 20%;
+}
 
 .selected {
-  background: blue;
+  color: white;
+  background-color: #3399ff;
+}
+
+button {
+  padding: 0 2em;
+  font-size: inherit;
+  color: #3399ff;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  height: 100%;
+  text-transform: uppercase;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+button:hover {
+  color: white;
+  background-color: #3399ff;
 }
