@@ -67,6 +67,14 @@ body #message {
   width: 20%;
 }
 
+@media screen and (max-width: 550px) {
+  body #color-display {
+    font-size: 125%;
+  }
+  body #message {
+    font-size: 1.4rem;
+  }
+}
 .selected {
   color: white;
   background-color: #3399ff;
@@ -93,4 +101,10 @@ button {
 button:hover {
   color: white;
   background-color: #3399ff;
+}
+
+@media screen and (max-width: 550px) {
+  button {
+    font-size: 1rem;
+  }
 }

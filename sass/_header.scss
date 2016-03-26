@@ -24,3 +24,14 @@ body {
     width: 20%;
   }
 }
+
+@media screen and (max-width: 550px){
+  body {
+    #color-display {
+      font-size: 125%;
+    }
+    #message {
+      font-size: 1.4rem;
+    }
+  }
+}
