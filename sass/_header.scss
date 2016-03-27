@@ -30,6 +30,9 @@ body {
 
 @media screen and (max-width: 550px){
   body {
+    #header-container {
+      font-size: 1.2rem;
+    }
     #color-display {
       font-size: 118%;
     }
