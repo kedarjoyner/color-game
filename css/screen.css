@@ -41,14 +41,17 @@ h1 {
 body {
   margin: 0;
 }
-body #header {
-  color: white;
-  text-align: center;
+body #header-container {
   background-color: #3399ff;
-  text-transform: uppercase;
+  color: white;
   margin: 0;
-  font-weight: 400;
+  text-align: center;
   padding: 1em 0;
+}
+body #header {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 body #color-display {
   font-size: 150%;
