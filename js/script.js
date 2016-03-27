@@ -19,7 +19,7 @@ var pickedColor;
 var squares = document.querySelectorAll(".square");
 var colorDisplay = document.getElementById("color-display");
 var messageDisplay = document.querySelector("#message");
-var header = document.querySelector("#header");
+var header = document.querySelector("#header-container");
 var resetButton = document.querySelector("#reset");
 var easyBtn = document.querySelector("#easy-btn");
 var hardBtn = document.querySelector("#hard-btn");
